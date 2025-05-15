@@ -1,0 +1,36 @@
+[package]
+name = "TreeScopeAI"
+version = "0.1.0"
+description = "A wood species classification application"
+authors = ["TreeScopy Team"]
+license = ""
+repository = ""
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[build-dependencies]
+tauri-build = { version = "1.4", features = [] }
+
+[dependencies]
+tauri = { version = "1.4", features = [ "fs-all", "dialog-all", "http-all", "path-all", "shell-open", "process-exit", "process-relaunch", "system-tray", "window-close", "window-hide", "window-maximize", "window-minimize", "window-show", "window-start-dragging", "window-unmaximize", "window-unminimize"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+rusqlite = { version = "0.28.0", features = ["bundled"] }
+sha2 = "0.10.6"
+hostname = "0.3.1"
+reqwest = { version = "0.11", features = ["json", "multipart"] }
+auto-launch = "0.4.0"
+winreg = { version = "0.10", optional = true }
+
+[target.'cfg(windows)'.dependencies]
+winreg = "0.10"
+
+[[bin]]
+name = "TreeScopeAI"
+path = "src/main.rs"
+
+[features]
+# this feature is used for production builds or when `devPath` points to the filesystem
+# DO NOT REMOVE!!
+custom-protocol = ["tauri/custom-protocol"] 

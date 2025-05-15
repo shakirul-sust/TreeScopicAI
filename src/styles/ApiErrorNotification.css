@@ -1,0 +1,128 @@
+.api-error-notification {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  z-index: 1000;
+  max-width: 300px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
+  border-left: 3px solid #f39c12;
+  animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.api-error-content {
+  padding: 12px;
+  position: relative;
+}
+
+.close-button {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: #777;
+  cursor: pointer;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.close-button:hover {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.error-icon {
+  font-size: 16px;
+  margin-bottom: 6px;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.api-error-notification h3 {
+  margin-top: 0;
+  margin-bottom: 6px;
+  color: #f39c12;
+  font-size: 15px;
+  display: inline-block;
+}
+
+.api-error-notification p {
+  margin-bottom: 10px;
+  color: #555;
+  font-size: 13px;
+}
+
+.recommendation {
+  background-color: #f8f8f8;
+  padding: 12px;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+.recommendation p {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.recommendation ul {
+  margin: 8px 0 12px 0;
+  padding-left: 20px;
+}
+
+.recommendation li {
+  margin-bottom: 6px;
+  font-size: 13px;
+}
+
+.recommendation li:last-child {
+  margin-bottom: 0;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 8px;
+}
+
+.retry-button {
+  background-color: #f39c12;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background-color 0.2s;
+}
+
+.retry-button:hover {
+  background-color: #e67e22;
+}
+
+@media (max-width: 600px) {
+  .api-error-notification {
+    top: 10px;
+    right: 10px;
+    max-width: 260px;
+  }
+}

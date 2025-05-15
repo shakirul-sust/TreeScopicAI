@@ -1,0 +1,350 @@
+/* Base styles */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Custom styles */
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+/* For loading screen */
+.loading-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f9fafb;
+  color: #374151;
+}
+
+.loading-screen p {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+.retry-message {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.dark .loading-screen {
+  background-color: #111827;
+  color: #e5e7eb;
+}
+
+.spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border-left-color: #2e7d32;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Z-index layering system */
+:root {
+  --z-base: 1;
+  --z-content: 5;
+  --z-dropdown: 10;
+  --z-sticky: 20;
+  --z-fixed: 30;
+  --z-modal-backdrop: 40;
+  --z-modal: 50;
+  --z-popover: 60;
+  --z-tooltip: 70;
+  --z-drawer-trigger: 80;
+  --z-drawer-backdrop: 90;
+  --z-drawer: 100;
+}
+
+/* Improved glassmorphism styles */
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.15);
+}
+
+.dark .glassmorphism {
+  background: rgba(30, 41, 59, 0.65);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.3),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.05);
+}
+
+/* Card hover effects */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 
+    0 10px 25px rgba(0, 0, 0, 0.1),
+    0 0 10px rgba(34, 197, 94, 0.2);
+}
+
+.dark .card-hover:hover {
+  box-shadow: 
+    0 10px 25px rgba(0, 0, 0, 0.3),
+    0 0 10px rgba(34, 197, 94, 0.2);
+}
+
+/* Fade animations */
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Transition classes */
+.transition-all {
+  transition-property: all;
+}
+
+.duration-300 {
+  transition-duration: 300ms;
+}
+
+.ease-in-out {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Transitions for route changes */
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 300ms ease-in;
+}
+
+/* Rope pull animation */
+.rope-pull {
+  cursor: grab;
+}
+
+.rope-pull:active {
+  cursor: grabbing;
+}
+
+/* Drawer hover detection zone */
+.drawer-trigger-zone {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 100%;
+  z-index: 30;
+  pointer-events: auto;
+}
+
+/* Pulse animation */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 0.7;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+}
+
+.animate-pulse-slow {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+/* Glow effects */
+.glow {
+  box-shadow: 0 0 15px rgba(34, 197, 94, 0.5);
+}
+
+.dark .glow {
+  box-shadow: 0 0 15px rgba(34, 197, 94, 0.3);
+}
+
+/* Focus styles for accessibility */
+.focus-visible:focus-visible {
+  outline: 2px solid #22c55e;
+  outline-offset: 2px;
+}
+
+/* Improved scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(34, 197, 94, 0.3);
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(34, 197, 94, 0.5);
+}
+
+/* Error Screen */
+.error-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f9fafb;
+  color: #374151;
+  padding: 2rem;
+  text-align: center;
+}
+
+.error-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.error-screen h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #ef4444;
+}
+
+.error-screen p {
+  margin-bottom: 1rem;
+  max-width: 600px;
+}
+
+.sample-keys {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  max-width: 400px;
+}
+
+.sample-key {
+  padding: 0.5rem;
+  background-color: #f3f4f6;
+  border-radius: 0.25rem;
+  font-family: monospace;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.sample-key:hover {
+  background-color: #e5e7eb;
+}
+
+/* Error Boundary Styles */
+.error-boundary-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: var(--bg-color);
+}
+
+.error-boundary-card {
+  background-color: var(--card-bg);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  max-width: 600px;
+  width: 90%;
+  text-align: center;
+  border: 1px solid var(--border-color);
+}
+
+.error-boundary-card h2 {
+  color: var(--error-color, #d32f2f);
+  margin-bottom: 1rem;
+}
+
+.error-details {
+  margin: 1.5rem 0;
+  text-align: left;
+  background-color: var(--code-bg, #f5f5f5);
+  padding: 1rem;
+  border-radius: 4px;
+  overflow: auto;
+}
+
+.error-details summary {
+  cursor: pointer;
+  color: var(--primary-color);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.error-details pre {
+  white-space: pre-wrap;
+  font-family: monospace;
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+}
+
+.error-reset-button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.error-reset-button:hover {
+  background-color: var(--primary-color-dark, #0056b3);
+}
+
+/* Dark mode adjustments for error boundary */
+.dark .error-details {
+  background-color: var(--dark-code-bg, #2a2a2a);
+  color: var(--dark-text-color, #e0e0e0);
+} 

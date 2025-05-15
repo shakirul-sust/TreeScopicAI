@@ -1,0 +1,116 @@
+.activation-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--background-light);
+  padding: 20px;
+}
+
+.activation-container {
+  background-color: var(--background-white);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  width: 100%;
+  max-width: 500px;
+  overflow: hidden;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0;
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.logo img {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  margin-right: 12px;
+  margin-bottom: 0;
+}
+
+.logo h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.activation-form-container {
+  padding: 30px;
+}
+
+.activation-form-container h2 {
+  color: var(--text-primary);
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.activation-form-container p {
+  color: var(--text-secondary);
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.activation-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group label {
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.activate-button {
+  margin-top: 10px;
+  padding: 12px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: var(--border-radius);
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.activate-button:hover {
+  background-color: var(--primary-dark);
+}
+
+.activate-button:disabled {
+  background-color: var(--text-secondary);
+  cursor: not-allowed;
+}
+
+.activation-footer {
+  padding: 20px 30px;
+  background-color: var(--background-light);
+  border-top: 1px solid var(--border-color);
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.activation-footer p {
+  margin: 5px 0;
+}
+
+.error-message {
+  color: var(--error-color);
+  background-color: #ffebee;
+  padding: 12px;
+  border-radius: var(--border-radius);
+  border-left: 4px solid var(--error-color);
+  font-size: 0.9rem;
+} 

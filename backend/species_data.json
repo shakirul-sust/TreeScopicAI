@@ -1,0 +1,601 @@
+[
+  {
+    "scientific_name": "Chukrasia tabularis",
+    "family": "Meliaceae",
+    "local_name": [
+      "Chickrasi",
+      "Pabba",
+      "Dalmara"
+    ],
+    "shade_tolerant": true,
+    "shade_intolerant": false,
+    "flowering_time": "April-June",
+    "fruiting_time": "January-March",
+    "deciduous": true,
+    "tree_height_m": 35,
+    "tree_height_range": "30-40",
+    "wood_anatomy": {
+      "density_g_cm3": 0.65,
+      "density_range": "0.60-0.70",
+      "xylem_porosity": "diffuse-porous",
+      "growth_ring": "indistinct"
+    },
+    "bark_thickness_mm": 10,
+    "bark_thickness_range": "8-12",
+    "usages": [
+      "Furniture",
+      "Doors",
+      "Windows",
+      "Light Flooring",
+      "Carving",
+      "Posts"
+    ],
+    "notes": "High-quality hardwood, used in construction and furniture making."
+  },
+  {
+    "scientific_name": "Toona ciliata",
+    "family": "Meliaceae",
+    "local_name": [
+      "Toon",
+      "Toona"
+    ],
+    "shade_tolerant": false,
+    "shade_intolerant": true,
+    "flowering_time": "April-June",
+    "fruiting_time": "July-September",
+    "deciduous": true,
+    "tree_height_m": 36.5,
+    "tree_height_range": "30-43",
+    "wood_anatomy": {
+      "density_g_cm3": 0.45,
+      "density_range": "0.40-0.50",
+      "xylem_porosity": "ring-porous",
+      "growth_ring": "distinct"
+    },
+    "bark_thickness_mm": 9,
+    "bark_thickness_range": "8-10",
+    "usages": [
+      "Furniture",
+      "Boat Building",
+      "Musical Instruments",
+      "Decorative Veneer"
+    ],
+    "notes": "Fast-growing timber tree, valued for its reddish, aromatic wood."
+  },
+  {
+    "scientific_name": "Swietenia mahagoni",
+    "family": "Meliaceae",
+    "local_name": [
+      "Mahogoni"
+    ],
+    "shade_tolerant": true,
+    "shade_intolerant": false,
+    "flowering_time": "March-April",
+    "fruiting_time": "June-August",
+    "deciduous": true,
+    "tree_height_m": 25,
+    "tree_height_range": "20-25",
+    "wood_anatomy": {
+      "density_g_cm3": 0.6,
+      "density_range": "0.55-0.65",
+      "xylem_porosity": "diffuse-porous",
+      "growth_ring": "indistinct",
+      "wood_color": "Reddish-brown",
+      "grain": "Straight to interlocked",
+      "texture": "Medium to coarse"
+    },
+    "bark_thickness_mm": 10,
+    "bark_thickness_range": "8-12",
+    "usages": [
+      "Furniture",
+      "Boat building",
+      "Musical instruments",
+      "Cabinet making",
+      "High-end woodworking"
+    ],
+    "notes": "Swietenia mahagoni is a species of Swietenia native to South Florida in the United States and islands in the Caribbean including the Bahamas, Cuba, Jamaica, and Hispaniola. It is the species from which the original mahogany wood was produced."
+  },
+  {
+    "scientific_name": "Aphanamixis polystachya",
+    "family": "Meliaceae",
+    "local_name": [
+      "Pitraj",
+      "Raina",
+      "Tiktaraj"
+    ],
+    "shade_tolerant": true,
+    "shade_intolerant": false,
+    "flowering_time": "April-May",
+    "fruiting_time": "August-October",
+    "deciduous": true,
+    "tree_height_m": 20,
+    "tree_height_range": "18-25",
+    "wood_anatomy": {
+      "density_g_cm3": 0.52,
+      "density_range": "0.50-0.55",
+      "xylem_porosity": "diffuse-porous",
+      "growth_ring": "indistinct"
+    },
+    "bark_thickness_mm": 6,
+    "bark_thickness_range": "5-8",
+    "usages": [
+      "Medicinal",
+      "Timber",
+      "Agricultural tools"
+    ],
+    "notes": "Moderate hardwood with medicinal bark and seed oil properties."
+  },
+  {
+    "scientific_name": "Tectona grandis",
+    "family": "Verbenaceae",
+    "local_name": [
+      "Segun"
+    ],
+    "shade_tolerant": true,
+    "shade_intolerant": false,
+    "flowering_time": "March-April",
+    "fruiting_time": "June-August",
+    "deciduous": true,
+    "tree_height_m": 30,
+    "tree_height_range": "25-35",
+    "wood_anatomy": {
+      "density_g_cm3": 0.65,
+      "density_range": "0.60-0.70",
+      "xylem_porosity": "diffuse-porous",
+      "growth_ring": "distinct"
+    },
+    "bark_thickness_mm": 10,
+    "bark_thickness_range": "9-11",
+    "usages": [
+      "Furniture",
+      "Ship building",
+      "Plywood"
+    ],
+    "notes": "Highly durable hardwood. Used in high-end construction."
+  },
+  {
+    "scientific_name": "Gmelina arborea",
+    "family": "Verbenaceae",
+    "local_name": [
+      "Gamar",
+      "Gamari"
+    ],
+    "shade_tolerant": true,
+    "shade_intolerant": false,
+    "flowering_time": "March-April",
+    "fruiting_time": "May-June",
+    "deciduous": true,
+    "tree_height_m": 25,
+    "tree_height_range": "20-30",
+    "wood_anatomy": {
+      "density_g_cm3": 0.52,
+      "density_range": "0.45-0.58",
+      "xylem_porosity": "diffuse-porous",
+      "growth_ring": "indistinct"
+    },
+    "bark_thickness_mm": 8,
+    "bark_thickness_range": "6-10",
+    "usages": [
+      "Plywood",
+      "Matchsticks",
+      "Packing Cases"
+    ],
+    "notes": "Fast-growing, light hardwood with pale yellow wood."
+  },
+  {
+    "scientific_name": "Lagerstroemia speciosa",
+    "family": "Lythraceae",
+    "local_name": [
+      "Jarul"
+    ],
+    "shade_tolerant": true,
+    "shade_intolerant": false,
+    "flowering_time": "April-June",
+    "fruiting_time": "August-October",
+    "deciduous": true,
+    "tree_height_m": 20,
+    "tree_height_range": "18-25",
+    "wood_anatomy": {
+      "density_g_cm3": 0.72,
+      "density_range": "0.68-0.76",
+      "xylem_porosity": "semi-ring porous",
+      "growth_ring": "distinct"
+    },
+    "bark_thickness_mm": 10,
+    "bark_thickness_range": "8-12",
+    "usages": [
+      "Construction",
+      "Furniture",
+      "Agricultural tools"
+    ],
+    "notes": "Valued for its dense, strong timber and vibrant purple flowers."
+  },
+  {
+    "scientific_name": "Lagerstroemia parviflora",
+    "family": "Lythraceae",
+    "local_name": [
+      "Sidha jarul",
+      "T-jarul"
+    ],
+    "shade_tolerant": true,
+    "shade_intolerant": false,
+    "flowering_time": "March-April",
+    "fruiting_time": "June-August",
+    "deciduous": true,
+    "tree_height_m": 18,
+    "tree_height_range": "15-20",
+    "wood_anatomy": {
+      "density_g_cm3": 0.75,
+      "density_range": "0.70-0.80",
+      "xylem_porosity": "diffuse-porous",
+      "growth_ring": "indistinct"
+    },
+    "bark_thickness_mm": 9,
+    "bark_thickness_range": "7-10",
+    "usages": [
+      "Rural construction",
+      "Cart wheels",
+      "Posts"
+    ],
+    "notes": "Hard, heavy timber often used in village construction and agriculture."
+  },
+  {
+    "scientific_name": "Michelia champaca",
+    "family": "Magnoliaceae",
+    "local_name": [
+      "Champa"
+    ],
+    "shade_tolerant": true,
+    "shade_intolerant": false,
+    "flowering_time": "February-May",
+    "fruiting_time": "June-August",
+    "deciduous": false,
+    "tree_height_m": 20,
+    "tree_height_range": "18-25",
+    "wood_anatomy": {
+      "density_g_cm3": 0.53,
+      "density_range": "0.50-0.56",
+      "xylem_porosity": "diffuse-porous",
+      "growth_ring": "indistinct"
+    },
+    "bark_thickness_mm": 7,
+    "bark_thickness_range": "6-9",
+    "usages": [
+      "Furniture",
+      "Cabinet making",
+      "Musical instruments"
+    ],
+    "notes": "Aromatic hardwood tree valued for fragrant flowers and light timber."
+  },
+  {
+    "scientific_name": "Albizia procera",
+    "family": "Liguminosea",
+    "local_name": [
+      "Silkoroi"
+    ],
+    "shade_tolerant": true,
+    "shade_intolerant": false,
+    "flowering_time": "May-June",
+    "fruiting_time": "September-October",
+    "deciduous": true,
+    "tree_height_m": 25,
+    "tree_height_range": "20-30",
+    "wood_anatomy": {
+      "density_g_cm3": 0.55,
+      "density_range": "0.50-0.60",
+      "xylem_porosity": "diffuse-porous",
+      "growth_ring": "indistinct"
+    },
+    "bark_thickness_mm": 8,
+    "bark_thickness_range": "7-10",
+    "usages": [
+      "Plywood",
+      "Poles",
+      "Agricultural tools"
+    ],
+    "notes": "Fast-growing light hardwood, often used for rural construction and tools."
+  },
+  {
+    "scientific_name": "Artocarpus chaplasha",
+    "family": "Moraceae",
+    "local_name": [
+      "Chapalish",
+      "Chambal"
+    ],
+    "shade_tolerant": true,
+    "shade_intolerant": false,
+    "flowering_time": "April-June",
+    "fruiting_time": "August-October",
+    "deciduous": true,
+    "tree_height_m": 30,
+    "tree_height_range": "25-35",
+    "wood_anatomy": {
+      "density_g_cm3": 0.7,
+      "density_range": "0.65-0.75",
+      "xylem_porosity": "diffuse-porous",
+      "growth_ring": "indistinct"
+    },
+    "bark_thickness_mm": 9,
+    "bark_thickness_range": "8-11",
+    "usages": [
+      "Furniture",
+      "Planks",
+      "Construction wood"
+    ],
+    "notes": "Hard, durable timber widely used in construction and furniture in Bangladesh."
+  },
+  {
+    "scientific_name": "Anthocephalus chinensis",
+    "family": "Rubiaceae",
+    "local_name": [
+      "Kadam"
+    ],
+    "shade_tolerant": true,
+    "shade_intolerant": false,
+    "flowering_time": "June-August",
+    "fruiting_time": "September-October",
+    "deciduous": false,
+    "tree_height_m": 35,
+    "wood_anatomy": {
+      "density_g_cm3": 0.45,
+      "xylem_porosity": "diffuse-porous",
+      "growth_ring": "indistinct"
+    },
+    "bark_thickness_mm": 6,
+    "bark_thickness_range": "5-7",
+    "usages": [
+      "Paper",
+      "Matches",
+      "Carving"
+    ],
+    "notes": "Very fast-growing softwood, suitable for pulp and lightweight woodworks."
+  },
+  {
+    "scientific_name": "Dillenia pentagyna",
+    "family": "Dilleniaceae",
+    "local_name": [
+      "Hargoja",
+      "Karkotra"
+    ],
+    "shade_tolerant": true,
+    "shade_intolerant": false,
+    "flowering_time": "March-May",
+    "fruiting_time": "June-August",
+    "deciduous": true,
+    "tree_height_m": 18,
+    "wood_anatomy": {
+      "density_g_cm3": 0.55,
+      "xylem_porosity": "diffuse-porous",
+      "growth_ring": "indistinct"
+    },
+    "bark_thickness_mm": 6,
+    "bark_thickness_range": "6-8",
+    "usages": [
+      "Fuelwood",
+      "Rural construction",
+      "Agricultural tools"
+    ],
+    "notes": "Medium-density wood, commonly used in traditional structures and village homes."
+  },
+  {
+    "scientific_name": "Dipterocarpus turbinatus",
+    "family": "Dipterocarpaceae",
+    "local_name": [
+      "Garjan"
+    ],
+    "shade_tolerant": false,
+    "shade_intolerant": true,
+    "flowering_time": "March-May",
+    "fruiting_time": "August-October",
+    "deciduous": false,
+    "tree_height_m": 45,
+    "wood_anatomy": {
+      "density_g_cm3": 0.75,
+      "xylem_porosity": "ring-porous",
+      "growth_ring": "distinct"
+    },
+    "bark_thickness_mm": 10,
+    "bark_thickness_range": "9-12",
+    "usages": [
+      "Plywood",
+      "Construction timber",
+      "Resin production"
+    ],
+    "notes": "High-density hardwood with resin content. Popular in construction and marine-grade plywood."
+  },
+  {
+    "scientific_name": "Tetrameles nudiflora",
+    "family": "Tetramelaceae",
+    "local_name": [
+      "Tandul",
+      "Chundul",
+      "Sandugaza"
+    ],
+    "shade_tolerant": false,
+    "shade_intolerant": true,
+    "flowering_time": "April-May",
+    "fruiting_time": "July-September",
+    "deciduous": true,
+    "tree_height_m": 40,
+    "wood_anatomy": {
+      "density_g_cm3": 0.3,
+      "xylem_porosity": "diffuse-porous",
+      "growth_ring": "indistinct"
+    },
+    "bark_thickness_mm": 8,
+    "bark_thickness_range": "7-10",
+    "usages": [
+      "Matchboxes",
+      "Light furniture",
+      "Packing boxes"
+    ],
+    "notes": "Very soft and light wood, suitable for temporary structures."
+  },
+  {
+    "scientific_name": "Zanthoxylum rhetsa",
+    "family": "Rutaceae",
+    "local_name": [
+      "Bajna",
+      "Bajna kanta",
+      "Badraang"
+    ],
+    "shade_tolerant": false,
+    "shade_intolerant": true,
+    "flowering_time": "February-April",
+    "fruiting_time": "May-July",
+    "deciduous": true,
+    "tree_height_m": 15,
+    "wood_anatomy": {
+      "density_g_cm3": 0.6,
+      "xylem_porosity": "diffuse-porous",
+      "growth_ring": "indistinct"
+    },
+    "bark_thickness_mm": 7,
+    "bark_thickness_range": "6-9",
+    "usages": [
+      "Tool handles",
+      "Fencing",
+      "Traditional medicine"
+    ],
+    "notes": "Wood contains aromatic oils, often used medicinally."
+  },
+  {
+    "scientific_name": "Hopea scaphula",
+    "family": "Dipterocarpaceae",
+    "local_name": [
+      "Boilam",
+      "Boilshur",
+      "Boilshura"
+    ],
+    "shade_tolerant": true,
+    "shade_intolerant": false,
+    "flowering_time": "March-April",
+    "fruiting_time": "May-June",
+    "deciduous": false,
+    "tree_height_m": 35,
+    "wood_anatomy": {
+      "density_g_cm3": 0.9,
+      "xylem_porosity": "ring-porous",
+      "growth_ring": "distinct"
+    },
+    "bark_thickness_mm": 12,
+    "bark_thickness_range": "11-14",
+    "usages": [
+      "Heavy construction",
+      "Bridges",
+      "Railway sleepers"
+    ],
+    "notes": "Extremely durable hardwood, often used for structural purposes."
+  },
+  {
+    "scientific_name": "Gynocardia odorata",
+    "family": "Flacourtiaceae",
+    "local_name": [
+      "Chaulmugra",
+      "Chhal Mogra"
+    ],
+    "shade_tolerant": true,
+    "shade_intolerant": false,
+    "flowering_time": "January-February",
+    "fruiting_time": "June-August",
+    "deciduous": false,
+    "tree_height_m": 30,
+    "wood_anatomy": {
+      "density_g_cm3": 0.6,
+      "xylem_porosity": "diffuse-porous",
+      "growth_ring": "indistinct"
+    },
+    "bark_thickness_mm": 10,
+    "bark_thickness_range": "9-11",
+    "usages": [
+      "Medicinal oil (chaulmoogra oil)",
+      "Traditional medicine",
+      "Light construction"
+    ],
+    "notes": "Evergreen tree native to moist forests; seeds yield chaulmoogra oil used in traditional medicine."
+  },
+  {
+    "scientific_name": "Mangifera sylvatica",
+    "family": "Anacardiaceae",
+    "local_name": [
+      "Uri-am",
+      "Meriam"
+    ],
+    "shade_tolerant": true,
+    "shade_intolerant": false,
+    "flowering_time": "March-April",
+    "fruiting_time": "May-July",
+    "deciduous": false,
+    "tree_height_m": 45,
+    "wood_anatomy": {
+      "density_g_cm3": 0.6,
+      "xylem_porosity": "diffuse-porous",
+      "growth_ring": "indistinct"
+    },
+    "bark_thickness_mm": 12,
+    "bark_thickness_range": "11-13",
+    "usages": [
+      "Timber",
+      "Fruit (cooking, pickles)",
+      "Traditional medicine"
+    ],
+    "notes": "Evergreen tree valued for fruit, timber, and medicinal uses; found in sub-tropical forests."
+  },
+  {
+    "scientific_name": "Microcos paniculata",
+    "family": "Tiliaceae",
+    "local_name": [
+      "Pisti",
+      "Pisli",
+      "Asar"
+    ],
+    "shade_tolerant": false,
+    "shade_intolerant": true,
+    "flowering_time": "April-June",
+    "fruiting_time": "July-September",
+    "deciduous": true,
+    "tree_height_m": 20,
+    "wood_anatomy": {
+      "density_g_cm3": 0.5,
+      "xylem_porosity": "diffuse-porous",
+      "growth_ring": "indistinct"
+    },
+    "bark_thickness_mm": 8,
+    "bark_thickness_range": "7-9",
+    "usages": [
+      "Traditional medicine",
+      "Fiber",
+      "Light construction"
+    ],
+    "notes": "Deciduous tree or shrub used in traditional medicine and for fiber; native to South and Southeast Asia."
+  },
+  {
+    "scientific_name": "Vitex pinnata",
+    "family": "Lamiaceae",
+    "local_name": [
+      "Badruk",
+      "Malayan Teak",
+      "Leban"
+    ],
+    "shade_tolerant": false,
+    "shade_intolerant": true,
+    "flowering_time": "January-December (nearly continuous)",
+    "fruiting_time": "Year-round",
+    "deciduous": false,
+    "tree_height_m": 20,
+    "wood_anatomy": {
+      "density_g_cm3": 0.93,
+      "xylem_porosity": "diffuse-porous",
+      "growth_ring": "indistinct"
+    },
+    "bark_thickness_mm": 8,
+    "bark_thickness_range": "7-9",
+    "usages": [
+      "Furniture",
+      "Tool handles",
+      "Door and window frames",
+      "Boat building"
+    ],
+    "notes": "Durable hardwood; resistant to decay even in contact with water or soil. Leaves and bark used in traditional medicine for treating abdominal pain and fever."
+  }
+]
