@@ -14,13 +14,15 @@ logger = logging.getLogger(__name__)
 
 app = FastAPI(title="TreeScopeAI Wood Species Classifier")
 
-# Enable CORS
+# Enable CORS with more specific configuration
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["*"],  # Allow all origins
     allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
+    allow_methods=["GET", "POST", "OPTIONS"],  # Explicitly allow these methods
+    allow_headers=["*"],  # Allow all headers
+    expose_headers=["*"],  # Expose all headers
+    max_age=3600,  # Cache preflight requests for 1 hour
 )
 
 # Load model once at startup
@@ -40,6 +42,17 @@ async def startup_event():
 @app.get("/")
 async def root():
     return {"message": "TreeScopeAI Wood Species Classifier API", "status": "online"}
+
+@app.get("/species")
+async def get_species():
+    """Endpoint to get available wood species"""
+    try:
+        # Get species names from the model
+        species_list = list(model.names.values())
+        return {"species": species_list}
+    except Exception as e:
+        logger.error(f"Error getting species list: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
 
 @app.post("/predict")
 async def predict(file: UploadFile = File(...)):

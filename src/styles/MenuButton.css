@@ -1,0 +1,41 @@
+/* MenuButton CSS with ripple effect */
+.ripple-effect {
+  position: absolute;
+  border-radius: 50%;
+  transform: scale(0);
+  animation: none;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+@keyframes ripple {
+  to {
+    transform: scale(2.5);
+    opacity: 0;
+  }
+}
+
+/* When button is clicked, apply ripple animation to the ripple element */
+button:active .ripple-effect {
+  animation: ripple 0.6s linear;
+}
+
+/* Hover effects */
+@media (hover: hover) {
+  button:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+}
+
+/* Focus styles for accessibility */
+button:focus-visible {
+  outline: 2px solid #30a46c;
+  outline-offset: 2px;
+}
+
+/* Make sure the button has good mobile touch targets */
+@media (max-width: 768px) {
+  button.fixed {
+    width: 48px; /* Larger touch target on mobile */
+    height: 48px;
+  }
+} 

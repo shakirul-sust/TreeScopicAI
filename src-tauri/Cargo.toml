@@ -3,9 +3,12 @@ name = "TreeScopeAI"
 version = "0.1.0"
 description = "A wood species classification application"
 authors = ["TreeScopy Team"]
-license = ""
-repository = ""
+license = "Proprietary"
+repository = "https://github.com/treescopy/treescope-ai"
 edition = "2021"
+categories = ["science", "visualization"]
+keywords = ["wood", "classification", "species", "identification", "forestry"]
+readme = "../README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

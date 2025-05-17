@@ -12,6 +12,11 @@ const SideDrawer = ({ isOpen, onClose, toggleDarkMode, isDarkMode }) => {
   const isFullPageRoute = ['/species-index', '/help-support', '/contact'].includes(location.pathname);
   
   // Navigation handlers
+  const navigateToHome = () => {
+    navigate('/');
+    onClose(false);
+  };
+  
   const navigateToSpeciesIndex = () => {
     navigate('/species-index');
     onClose(false);
@@ -192,6 +197,21 @@ const SideDrawer = ({ isOpen, onClose, toggleDarkMode, isDarkMode }) => {
             
             {/* Navigation Buttons */}
             <div className="flex-grow flex flex-col p-5 space-y-4">
+              {/* Home Button */}
+              <motion.button
+                onClick={navigateToHome}
+                className="w-full py-3 px-4 bg-amber-100 dark:bg-amber-800/30 hover:bg-amber-200 dark:hover:bg-amber-700/50 
+                          text-amber-800 dark:text-amber-200 rounded-lg transition-colors duration-200
+                          flex items-center justify-center space-x-2 shadow-sm"
+                whileHover={{ scale: 1.02 }}
+                whileTap={{ scale: 0.98 }}
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                  <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+                </svg>
+                <span className="font-medium">Home</span>
+              </motion.button>
+            
               {/* Tree Species Index Button */}
               <motion.button
                 onClick={navigateToSpeciesIndex}
