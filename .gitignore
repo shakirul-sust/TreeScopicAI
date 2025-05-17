@@ -1,0 +1,14 @@
+/node_modules
+#/dist
+/build
+/coverage
+/logs
+/temp
+/src-tauri/target
+
+# Tauri
+.tauri
+tauri.conf.json
+
+# Environment variables
+.env

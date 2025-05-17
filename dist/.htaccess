@@ -1,0 +1,13 @@
+RewriteEngine On
+# Handle Front Controller Pattern...
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.html [L]
+
+# Handle other direct file requests
+<IfModule mod_headers.c>
+    # Cache control for static assets
+    <FilesMatch "\.(css|js|svg|jpg|jpeg|png|gif|ico)$">
+        Header set Cache-Control "max-age=31536000, public"
+    </FilesMatch>
+</IfModule> 
